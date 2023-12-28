@@ -1,11 +1,14 @@
-import priorityq
+import prqrs
 import random
 import time
 
-pq = priorityq.PriorityQueue()
+pq = prqrs.PriorityQueue()
 
 # Generating 1 million items
-items = [priorityq.Item(value=random.randint(0, 1000), priority=random.randint(1, 100)) for _ in range(1000000)]
+items = [
+    prqrs.Item(value=random.randint(0, 1000), priority=random.randint(1, 100))
+    for _ in range(1000000)
+]
 
 # Benchmark enqueue
 start_time = time.time()

@@ -1,10 +1,10 @@
 [package]
-name = "priorityq"
+name = "prqrs"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "priorityq"
+name = "prqrs"
 crate-type = ["cdylib"]
 
 [dependencies]

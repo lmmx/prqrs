@@ -71,7 +71,7 @@ fn benchmark_dequeue(pq: &mut PriorityQueue) -> String {
 }
 
 #[pymodule]
-fn priorityq(_py: Python, m: &PyModule) -> PyResult<()> {
+fn prqrs(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_class::<Item>()?;
     m.add_class::<PriorityQueue>()?;
     m.add_function(wrap_pyfunction!(benchmark_enqueue, m)?)?;
