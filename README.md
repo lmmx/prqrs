@@ -28,6 +28,8 @@ To build the Rust project from source run:
 maturin develop --release
 ```
 
+Alternatively using the PDM package manager, just run `pdm install`.
+
 ## Usage
 
 ### Creating a Priority Queue
