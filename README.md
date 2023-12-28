@@ -1,6 +1,14 @@
 # prqrs
 
-> Python access to a priority queue in Rust
+> Python priority queue in Rust via pyo3
+
+[![PyPI](https://img.shields.io/pypi/v/prqrs?logo=python&logoColor=%23cccccc)](https://pypi.org/project/prqrs)
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/lmmx/prqrs/master.svg)](https://results.pre-commit.ci/latest/github/lmmx/prqrs/master)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/prqrs.svg)](https://pypi.org/project/prqrs)
+[![license](https://img.shields.io/github/license/lmmx/prqrs.svg)](https://github.com/lmmx/prqrs/blob/main/LICENSE)
+[![Pydantic v2](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydantic/pydantic/main/docs/badge/v2.json)](https://docs.pydantic.dev/latest/contributing/#badges)
+[![Documentation](https://readthedocs.org/projects/prqrs/badge/?version=latest)](https://prqrs.readthedocs.io/en/latest/?version=latest)
 
 The `prqrs` package provides a simple interface to a priority queue implemented in Rust. This
 guide will show you how to create a priority queue, add items to it, and retrieve items based on
