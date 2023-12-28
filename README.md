@@ -37,7 +37,7 @@ Alternatively using the PDM package manager, just run `pdm install`.
 To create a priority queue, import the `PriorityQueue` class from the `prqrs` package and
 instantiate it:
 
-```
+```py
 from prqrs import PriorityQueue
 
 pq = PriorityQueue()
