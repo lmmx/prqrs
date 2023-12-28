@@ -120,7 +120,16 @@ Value: 10, Priority: 1
 
 Running `pdm install` (or `maturin develop`) to install the Rust wheel followed by  `python benchmark_1m.py`:
 
+1.1 GHz CPU: (0.18+0.51)s
+
 ```
 Enqueue time for 1 million items: 0.1798386573791504 seconds
 Dequeue time for 1 million items: 0.5103330612182617 seconds
+```
+
+3.7 GHz CPU: (0.08+0.19)s
+
+```
+Enqueue time for 1 million items: 0.08250904083251953 seconds
+Dequeue time for 1 million items: 0.1858220100402832 seconds
 ```
