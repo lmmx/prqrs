@@ -14,11 +14,13 @@ their priority.
 
 ## Installation
 
-First, ensure that the prqrs package is installed.
+<!-- First, ensure that the prqrs package is installed.
 
 ```sh
 pip install prqrs
 ```
+
+-->
 
 To build the Rust project from source run:
 
