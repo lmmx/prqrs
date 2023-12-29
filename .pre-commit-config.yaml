@@ -27,7 +27,4 @@ repos:
     rev: v0.23.1
     hooks:
       - id: toml-sort-fix
-  - repo: https://github.com/asottile/add-trailing-comma
-    rev: v3.1.0
-    hooks:
-      - id: add-trailing-comma
+        args: [--in-place, --trailing-comma-inline-array]
