@@ -16,6 +16,6 @@ print(
             prqrs.Item(value=random.randint(0, 10), priority=random.randint(1, 10))
             for _ in range(10)
         ],
-    )
+    ),
 )
 print(prqrs.benchmark_dequeue(pq))
