@@ -24,7 +24,7 @@ repos:
       - id: name-tests-test
       - id: trailing-whitespace
   - repo: https://github.com/pappasam/toml-sort
-    rev: v0.24.3
+    rev: v0.24.4
     hooks:
       - id: toml-sort-fix
         args: [--in-place, --trailing-comma-inline-array]
