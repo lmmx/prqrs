@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 authors = [
-  {email = "louismmx@gmail.com", name = "Louis Maddox"},
+  { email = "louismmx@gmail.com", name = "Louis Maddox" },
 ]
 classifiers = [
   "License :: OSI Approved :: MIT License",
@@ -20,7 +20,7 @@ keywords = [
   "priority queue",
   "pyo3",
 ]
-license = {text = "MIT"}
+license = { text = "MIT" }
 name = "prqrs"
 readme = "README.md"
 requires-python = ">=3.10,<3.12"
